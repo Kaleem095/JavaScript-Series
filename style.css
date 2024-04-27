@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+}
+
+.box{
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    line-height: 50px;
+    font-size: 1.5rem;
+}
+
+#group1{
+    float: left;
+}
+
+#group2{
+    float: left;
+    position: relative;
+    top: 75px;
+}
+
+#group3{
+    float: left;
+    position: relative;
+    top: 225px;
+}
+
+#group4{
+    float: left;
+    position: relative;
+    top: 75px;
+}
+#group5{
+    float: left;
+}
